@@ -526,3 +526,7 @@ aside {
   border: 1px solid #eaeae9;
   margin-top: 2.1em;
   color: #373534; }
+
+img {
+  max-width: 100%;
+  height: auto; }
