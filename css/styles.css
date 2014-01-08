@@ -521,3 +521,8 @@ nav {
 
 .title {
   color: #373534; }
+
+aside {
+  border: 1px solid #eaeae9;
+  margin-top: 2.1em;
+  color: #373534; }
