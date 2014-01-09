@@ -530,3 +530,45 @@ aside {
 img {
   max-width: 100%;
   height: auto; }
+
+/**
+ * CSS for Responsive Table for the Safety Post
+ */
+#table {
+  display: table;
+  width: 100%;
+  background: #fff;
+  margin: 0;
+  box-sizing: border-box; }
+
+.caption {
+  display: block;
+  width: 100%;
+  background: #ff5113;
+  height: 55px;
+  /*padding-left: 10px;*/
+  color: #fff;
+  font-size: 20px;
+  line-height: 55px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box; }
+
+.header-row {
+  background: #373534;
+  color: #fff; }
+
+.row {
+  display: table-row; }
+
+.cell {
+  display: table-cell;
+  padding: 6px;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center; }
+
+.primary {
+  text-align: left; }
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: none; }
